@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(#fae69a, #d2506e, #383a62);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main {
+    color: #000000;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer {
+    background-color: #222222;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+}
+
+.button {
+    width: 570px;
+    border: none;
+    border-radius: 30px;
+    height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor:pointer;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#canvas {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #000000;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #ffffff;
+    color: #000000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-button {
+    width: 10px;
+    height: 100%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #222222;
+    border: 0px none;
+}
+
+::-webkit-scrollbar-track {
+    border: 0px none;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
