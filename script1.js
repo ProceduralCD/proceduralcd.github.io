@@ -36,7 +36,6 @@ function draw() {
         ctx.moveTo(xPos, yPos);
 
         angle = (360 / rotations) * getRandomInt(rotations);
-        //footer.innerHTML = angle;
 
         xPos += length * Math.cos((angle / 180) * Math.PI);
         yPos -= length * Math.sin((angle / 180) * Math.PI);
@@ -48,5 +47,4 @@ function draw() {
     }
 }
 
-//setInterval(draw, 1);
 draw();
